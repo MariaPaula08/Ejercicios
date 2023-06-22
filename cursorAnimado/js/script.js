@@ -8,7 +8,7 @@ function movement(e){
         let x = e.pageX;
         let y = e.pageY;
         cursorAni.style.left = x + "px";
-        cursorAni.style.top = y + "py";
+        cursorAni.style.top = y + "px";
         cursorAni.style.display = "block"
 
         clearTimeout(timeout)
